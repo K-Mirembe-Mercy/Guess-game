@@ -1,0 +1,5 @@
+def numbers(n):
+    if n <= 100:
+        print(n)
+        numbers(n + 1)
+numbers(1)
